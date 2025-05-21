@@ -1,0 +1,121 @@
+body,html {
+    background-color: #add8e6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #007BFF;
+  display: flex;
+  justify-content: space-between; /* Spread out name and links */
+  align-items: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.brand-name {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 14px 0;
+}
+
+.nav-links a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  background-color: #0056b3;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.container h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.container p {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.instagram {
+    background-color: #e1306c;
+}
+
+.whatsapp {
+    background-color: #25d366;
+}
+
+.email {
+    background-color: #007bff;
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+.footer {
+  width: 100%;
+  background-color:#007bffc7;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  position: relative;
+  bottom: 0;
+  font-size: 14px;
+}
+
