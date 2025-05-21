@@ -100,8 +100,8 @@ body,html {
     background-color: #25d366;
 }
 
-.email {
-    background-color: #007bff;
+.btn.linkedin {
+  background-color: #0077b5;
 }
 
 .btn i {
